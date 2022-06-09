@@ -1,0 +1,55 @@
+\hypertarget{class_map3_d}{}\doxysection{Map3D Class Reference}
+\label{class_map3_d}\index{Map3D@{Map3D}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_map3_d_aa2e71609f8f563803cc0df16f0e16960}{Write3\+D\+Point\+Cloud}} (const std\+::string file)
+\item 
+void \mbox{\hyperlink{class_map3_d_a34fdaf6c25e09387b90023e19f2d4609}{Map\+Generation}} (cv\+::\+Mat input\+Image, float x\+A\+UV, float y\+A\+UV, float z\+A\+UV)
+\item 
+void \mbox{\hyperlink{class_map3_d_a4fe75a6489681f6077e3cf5d228ac611}{Map\+S\+L\+AM}} (cv\+::\+Mat input\+Image, float x\+A\+UV, float y\+A\+UV, float z\+A\+UV)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_map3_d_a34fdaf6c25e09387b90023e19f2d4609}\label{class_map3_d_a34fdaf6c25e09387b90023e19f2d4609}} 
+\index{Map3D@{Map3D}!MapGeneration@{MapGeneration}}
+\index{MapGeneration@{MapGeneration}!Map3D@{Map3D}}
+\doxysubsubsection{\texorpdfstring{MapGeneration()}{MapGeneration()}}
+{\footnotesize\ttfamily void Map3\+D\+::\+Map\+Generation (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Image,  }\item[{float}]{x\+A\+UV,  }\item[{float}]{y\+A\+UV,  }\item[{float}]{z\+A\+UV }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map3_d_a4fe75a6489681f6077e3cf5d228ac611}\label{class_map3_d_a4fe75a6489681f6077e3cf5d228ac611}} 
+\index{Map3D@{Map3D}!MapSLAM@{MapSLAM}}
+\index{MapSLAM@{MapSLAM}!Map3D@{Map3D}}
+\doxysubsubsection{\texorpdfstring{MapSLAM()}{MapSLAM()}}
+{\footnotesize\ttfamily void Map3\+D\+::\+Map\+S\+L\+AM (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Image,  }\item[{float}]{x\+A\+UV,  }\item[{float}]{y\+A\+UV,  }\item[{float}]{z\+A\+UV }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_map3_d_aa2e71609f8f563803cc0df16f0e16960}\label{class_map3_d_aa2e71609f8f563803cc0df16f0e16960}} 
+\index{Map3D@{Map3D}!Write3DPointCloud@{Write3DPointCloud}}
+\index{Write3DPointCloud@{Write3DPointCloud}!Map3D@{Map3D}}
+\doxysubsubsection{\texorpdfstring{Write3DPointCloud()}{Write3DPointCloud()}}
+{\footnotesize\ttfamily void Map3\+D\+::\+Write3\+D\+Point\+Cloud (\begin{DoxyParamCaption}\item[{const std\+::string}]{file }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Filename with extension. Supported formats\+: P\+LY, X\+YZ and O\+BJ. \\
+\hline
+{\em cloud} & Supported depths\+: C\+V\+\_\+32F and C\+V\+\_\+64F. Supported channels\+: 3 and 4. \\
+\hline
+{\em colors} & Used by P\+LY format only. Supported depth\+: C\+V\+\_\+8U. Supported channels\+: 1, 3 and 4. \\
+\hline
+{\em normals} & Used by P\+LY and O\+BJ format only. Supported depths\+: C\+V\+\_\+32F and C\+V\+\_\+64F. Supported channels\+: 3 and 4. \\
+\hline
+{\em binary} & Used only for P\+LY format. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/duc/\+Workspace/sonar-\/images/src/\mbox{\hyperlink{map_8h}{map.\+h}}\end{DoxyCompactItemize}

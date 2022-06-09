@@ -1,0 +1,155 @@
+\hypertarget{basic-process_8h}{}\doxysection{/home/duc/\+Workspace/sonar-\/images/src/basic-\/process.h File Reference}
+\label{basic-process_8h}\index{/home/duc/Workspace/sonar-\/images/src/basic-\/process.h@{/home/duc/Workspace/sonar-\/images/src/basic-\/process.h}}
+Include dependency graph for basic-\/process.h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/dc9/basic-process_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{basic-process_8h_a24913479363401dee80d4209b6860616}{Crop\+Image}} (cv\+::\+Mat input\+Image, int x, int y, int dx, int dy)
+\item 
+cv\+::\+Mat \mbox{\hyperlink{basic-process_8h_a81f8d5325149052f449399a3bdd84ae9}{Carter\+To\+Polar}} (cv\+::\+Mat input\+Image)
+\item 
+cv\+::\+Mat \mbox{\hyperlink{basic-process_8h_a351496138fb13485fb0c87fd367e71ca}{Contours}} (cv\+::\+Mat input\+Image)
+\item 
+cv\+::\+Point2d \mbox{\hyperlink{basic-process_8h_a9f361fc48fda0abd94f20440b17ee255}{Phase\+Correlate}} (cv\+::\+Mat input\+Reference, cv\+::\+Mat input\+Compare)
+\item 
+cv\+::\+Mat \mbox{\hyperlink{basic-process_8h_aa522aa18d6380461242fbe6d328d29dc}{K\+\_\+\+Means}} (cv\+::\+Mat Input, int K)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{basic-process_8h_a2c898b6565e2003ff397d06edf02c587}{Get\+Distance}} (const cv\+::\+Point a, const cv\+::\+Point b)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{basic-process_8h_a711b2e4220bdf8c6cbcefd4cb1977339}{Get\+Distance}} (const T x, const T y, const T x1, const T y1)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{basic-process_8h_aadcf45c11965ef0eb1ef2d7e29342547}{Pixel\+To\+Meter}} (T distance, T distance\+Reference)
+\item 
+float \mbox{\hyperlink{basic-process_8h_aa6de5a77e6120981f9e4a3cbaca0d4d7}{Degree2\+Radian}} (float degree)
+\item 
+float \mbox{\hyperlink{basic-process_8h_a3f900dbc0161c74207618c850dd9048c}{Radian2\+Degree}} (float radian)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{basic-process_8h_a81f8d5325149052f449399a3bdd84ae9}\label{basic-process_8h_a81f8d5325149052f449399a3bdd84ae9}} 
+\index{basic-\/process.h@{basic-\/process.h}!CarterToPolar@{CarterToPolar}}
+\index{CarterToPolar@{CarterToPolar}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{CarterToPolar()}{CarterToPolar()}}
+{\footnotesize\ttfamily cv\+::\+Mat Carter\+To\+Polar (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Image }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & image\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+output images 
+\end{DoxyReturn}
+\mbox{\Hypertarget{basic-process_8h_a351496138fb13485fb0c87fd367e71ca}\label{basic-process_8h_a351496138fb13485fb0c87fd367e71ca}} 
+\index{basic-\/process.h@{basic-\/process.h}!Contours@{Contours}}
+\index{Contours@{Contours}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{Contours()}{Contours()}}
+{\footnotesize\ttfamily cv\+::\+Mat Contours (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Image }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & image\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+drawed image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{basic-process_8h_a24913479363401dee80d4209b6860616}\label{basic-process_8h_a24913479363401dee80d4209b6860616}} 
+\index{basic-\/process.h@{basic-\/process.h}!CropImage@{CropImage}}
+\index{CropImage@{CropImage}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{CropImage()}{CropImage()}}
+{\footnotesize\ttfamily cv\+::\+Mat Crop\+Image (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Image,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{dx,  }\item[{int}]{dy }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & image, x, y, dx, dy\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+croped image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{basic-process_8h_aa6de5a77e6120981f9e4a3cbaca0d4d7}\label{basic-process_8h_aa6de5a77e6120981f9e4a3cbaca0d4d7}} 
+\index{basic-\/process.h@{basic-\/process.h}!Degree2Radian@{Degree2Radian}}
+\index{Degree2Radian@{Degree2Radian}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{Degree2Radian()}{Degree2Radian()}}
+{\footnotesize\ttfamily float Degree2\+Radian (\begin{DoxyParamCaption}\item[{float}]{degree }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{basic-process_8h_a2c898b6565e2003ff397d06edf02c587}\label{basic-process_8h_a2c898b6565e2003ff397d06edf02c587}} 
+\index{basic-\/process.h@{basic-\/process.h}!GetDistance@{GetDistance}}
+\index{GetDistance@{GetDistance}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{GetDistance()}{GetDistance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T Get\+Distance (\begin{DoxyParamCaption}\item[{const cv\+::\+Point}]{a,  }\item[{const cv\+::\+Point}]{b }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{basic-process_8h_a711b2e4220bdf8c6cbcefd4cb1977339}\label{basic-process_8h_a711b2e4220bdf8c6cbcefd4cb1977339}} 
+\index{basic-\/process.h@{basic-\/process.h}!GetDistance@{GetDistance}}
+\index{GetDistance@{GetDistance}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{GetDistance()}{GetDistance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T Get\+Distance (\begin{DoxyParamCaption}\item[{const T}]{x,  }\item[{const T}]{y,  }\item[{const T}]{x1,  }\item[{const T}]{y1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{basic-process_8h_aa522aa18d6380461242fbe6d328d29dc}\label{basic-process_8h_aa522aa18d6380461242fbe6d328d29dc}} 
+\index{basic-\/process.h@{basic-\/process.h}!K\_Means@{K\_Means}}
+\index{K\_Means@{K\_Means}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{K\_Means()}{K\_Means()}}
+{\footnotesize\ttfamily cv\+::\+Mat K\+\_\+\+Means (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{Input,  }\item[{int}]{K }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{basic-process_8h_a9f361fc48fda0abd94f20440b17ee255}\label{basic-process_8h_a9f361fc48fda0abd94f20440b17ee255}} 
+\index{basic-\/process.h@{basic-\/process.h}!PhaseCorrelate@{PhaseCorrelate}}
+\index{PhaseCorrelate@{PhaseCorrelate}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{PhaseCorrelate()}{PhaseCorrelate()}}
+{\footnotesize\ttfamily cv\+::\+Point2d Phase\+Correlate (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{input\+Reference,  }\item[{cv\+::\+Mat}]{input\+Compare }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em src1} & Source floating point array (C\+V\+\_\+32\+F\+C1 or C\+V\+\_\+64\+F\+C1) \\
+\hline
+{\em src2} & Source floating point array (C\+V\+\_\+32\+F\+C1 or C\+V\+\_\+64\+F\+C1) \\
+\hline
+{\em window} & Floating point array with windowing coefficients to reduce edge effects (optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+detected phase shift (sub-\/pixel) between the two arrays. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{basic-process_8h_aadcf45c11965ef0eb1ef2d7e29342547}\label{basic-process_8h_aadcf45c11965ef0eb1ef2d7e29342547}} 
+\index{basic-\/process.h@{basic-\/process.h}!PixelToMeter@{PixelToMeter}}
+\index{PixelToMeter@{PixelToMeter}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{PixelToMeter()}{PixelToMeter()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T Pixel\+To\+Meter (\begin{DoxyParamCaption}\item[{T}]{distance,  }\item[{T}]{distance\+Reference }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{basic-process_8h_a3f900dbc0161c74207618c850dd9048c}\label{basic-process_8h_a3f900dbc0161c74207618c850dd9048c}} 
+\index{basic-\/process.h@{basic-\/process.h}!Radian2Degree@{Radian2Degree}}
+\index{Radian2Degree@{Radian2Degree}!basic-\/process.h@{basic-\/process.h}}
+\doxysubsubsection{\texorpdfstring{Radian2Degree()}{Radian2Degree()}}
+{\footnotesize\ttfamily float Radian2\+Degree (\begin{DoxyParamCaption}\item[{float}]{radian }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}

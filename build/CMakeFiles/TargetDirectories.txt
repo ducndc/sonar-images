@@ -1,0 +1,8 @@
+/home/duc/workspace/sonar-images/build/CMakeFiles/sonar_image_lib.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/sonar_image.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/edit_cache.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/rebuild_cache.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/list_install_components.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/install.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/install/local.dir
+/home/duc/workspace/sonar-images/build/CMakeFiles/install/strip.dir
